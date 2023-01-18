@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "build": "npx tsc",
-    "start": "node NEW/server.ts",
+    "start": "node server.ts",
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q NEW/server.js\""
   },
   "author": "Pond",
